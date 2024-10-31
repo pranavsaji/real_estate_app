@@ -1,0 +1,204 @@
+/* src/components/SavedSearches.css */
+
+.saved-searches {
+  width: 250px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-right: 1px solid #ddd;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.saved-searches h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.saved-searches ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.saved-searches .saved-search-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.saved-searches .saved-search-item .search-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+.saved-searches .saved-search-item .search-btn:hover {
+  text-decoration: underline;
+}
+
+.saved-searches .saved-search-item .delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.saved-searches .clear-all-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.saved-searches .clear-all-btn:hover {
+  background-color: #c82333;
+}
+
+
+/* src/components/SavedSearches.css */
+
+/* .saved-searches {
+  width: 250px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-right: 1px solid #ddd;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.saved-searches h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.saved-searches ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.saved-searches .saved-search-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.saved-searches .saved-search-item button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.saved-searches .saved-search-item .delete-btn {
+  color: red;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.saved-searches .clear-all-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.saved-searches .clear-all-btn:hover {
+  background-color: #c82333;
+} */
+
+/* src/components/SavedSearches.css
+
+.saved-searches {
+    width: 250px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-right: 1px solid #ddd;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+  .saved-searches h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .saved-searches ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .saved-searches .saved-search-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .saved-searches .saved-search-item button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    padding: 0;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  .saved-searches .saved-search-item .delete-btn {
+    color: red;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+  
+  .saved-searches .clear-all-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 1rem;
+  }
+  
+  .saved-searches .clear-all-btn:hover {
+    background-color: #c82333;
+  }
+   */

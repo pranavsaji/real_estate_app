@@ -1,0 +1,36 @@
+/* src/pages/Results.css */
+
+.results-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .results-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .results-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .results-container table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  .results-container th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .results-container th {
+    background-color: #f2f2f2;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  

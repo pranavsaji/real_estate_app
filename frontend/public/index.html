@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+
+<!-- 
+<html lang="en" class="dark" style="color-scheme: dark;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" as="image"
+        imagesrcset="/_next/image?url=%2Fhappenstance.png&amp;w=64&amp;q=75 1x, /_next/image?url=%2Fhappenstance.png&amp;w=128&amp;q=75 2x"
+        fetchpriority="high">
+    <link rel="stylesheet" href="/_next/static/css/b09fbae220e08670.css" data-precedence="next">
+    <link rel="preload" as="script" fetchpriority="low" href="/_next/static/chunks/webpack-9a96858b4fbf814d.js">
+    <script type="text/javascript" async="" id="_intercom_npm_loader"
+        src="https://widget.intercom.io/widget/v588c91i"></script>
+    <script src="/_next/static/chunks/fd9d1056-61db23fefdad652d.js" async=""></script>
+    <script src="/_next/static/chunks/7023-9ff791560cf6c1f6.js" async=""></script>
+    <script src="/_next/static/chunks/main-app-b8d8f654a4c3de8b.js" async=""></script>
+    <script src="/_next/static/chunks/9da6db1e-2eb1a18cb3deca4d.js" async=""></script>
+    <script src="/_next/static/chunks/0e5ce63c-735afe55d95a1472.js" async=""></script>
+    <script src="/_next/static/chunks/231-95ece63dbda7b82f.js" async=""></script>
+    <script src="/_next/static/chunks/7500-8cb757ed3793acf9.js" async=""></script>
+    <script src="/_next/static/chunks/7776-a1912eb86ffa6ab5.js" async=""></script>
+    <script src="/_next/static/chunks/3073-d8589653dd8dc272.js" async=""></script>
+    <script src="/_next/static/chunks/1150-36705af242d8bbdb.js" async=""></script>
+    <script src="/_next/static/chunks/5355-0905e9f626a291e7.js" async=""></script>
+    <script src="/_next/static/chunks/3255-0ccecb095b7d1d8a.js" async=""></script>
+    <script src="/_next/static/chunks/5306-7bd824231f74c07b.js" async=""></script>
+    <script src="/_next/static/chunks/2006-5edeefad5ac8a346.js" async=""></script>
+    <script src="/_next/static/chunks/7690-7f071d8dfcf956dc.js" async=""></script>
+    <script src="/_next/static/chunks/1585-25ec687cf19ff1ab.js" async=""></script>
+    <script src="/_next/static/chunks/8508-b6d09192b8494e05.js" async=""></script>
+    <script src="/_next/static/chunks/9961-d5b6244b0a3c7c9b.js" async=""></script>
+    <script src="/_next/static/chunks/3008-280a1ce0ea66ab0e.js" async=""></script>
+    <script src="/_next/static/chunks/2669-3f9433ccf4ed6df7.js" async=""></script>
+    <script src="/_next/static/chunks/app/search/page-8a50561460d7043a.js" async=""></script>
+    <script src="/_next/static/chunks/8685-cf7935654d986925.js" async=""></script>
+    <script src="/_next/static/chunks/9743-a60e90965e772b45.js" async=""></script>
+    <script src="/_next/static/chunks/2987-2b8fa57a33344813.js" async=""></script>
+    <script src="/_next/static/chunks/4835-1a7d46ed62c15dd8.js" async=""></script>
+    <script src="/_next/static/chunks/app/not-found-5a6ab2ca3dc9e802.js" async=""></script>
+    <script src="https://clerk.happenstance.ai/npm/@clerk/clerk-js@5/dist/clerk.browser.js" data-clerk-js-script="true"
+        async="" crossorigin="anonymous" data-clerk-publishable-key="pk_live_Y2xlcmsuaGFwcGVuc3RhbmNlLmFpJA"></script>
+    <title>Happenstance</title>
+    <meta property="og:title" content="Happenstance">
+    <meta property="og:url" content="https://happenstance.ai">
+    <meta property="og:image" content="https://happenstance.ai/opengraph/og.png">
+    <meta property="og:image:alt" content="Happenstance">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Happenstance">
+    <meta name="twitter:image" content="https://happenstance.ai/opengraph/og.png">
+    <meta name="twitter:image:alt" content="Happenstance">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="48x48">
+    <script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" nomodule=""></script>
+    <style type="text/css">
+        :where(html[dir="ltr"]),
+        :where([data-sonner-toaster][dir="ltr"]) {
+            --toast-icon-margin-start: -3px;
+            --toast-icon-margin-end: 4px;
+            --toast-svg-margin-start: -1px;
+            --toast-svg-margin-end: 0px;
+            --toast-button-margin-start: auto;
+            --toast-button-margin-end: 0;
+            --toast-close-button-start: 0;
+            --toast-close-button-end: unset;
+            --toast-close-button-transform: translate(-35%, -35%)
+        }
+
+        :where(html[dir="rtl"]),
+        :where([data-sonner-toaster][dir="rtl"]) {
+            --toast-icon-margin-start: 4px;
+            --toast-icon-margin-end: -3px;
+            --toast-svg-margin-start: 0px;
+            --toast-svg-margin-end: -1px;
+            --toast-button-margin-start: 0;
+            --toast-button-margin-end: auto;
+            --toast-close-button-start: unset;
+            --toast-close-button-end: 0;
+            --toast-close-button-transform: translate(35%, -35%)
+        }
+
+        :where([data-sonner-toaster]) {
+            position: fixed;
+            width: var(--width);
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            --gray1: hsl(0, 0%, 99%);
+            --gray2: hsl(0, 0%, 97.3%);
+            --gray3: hsl(0, 0%, 95.1%);
+            --gray4: hsl(0, 0%, 93%);
+            --gray5: hsl(0, 0%, 90.9%);
+            --gray6: hsl(0, 0%, 88.7%);
+            --gray7: hsl(0, 0%, 85.8%);
+            --gray8: hsl(0, 0%, 78%);
+            --gray9: hsl(0, 0%, 56.1%);
+            --gray10: hsl(0, 0%, 52.3%);
+            --gray11: hsl(0, 0%, 43.5%);
+            --gray12: hsl(0, 0%, 9%);
+            --border-radius: 8px;
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            outline: none;
+            z-index: 999999999
+        }
+
+        :where([data-sonner-toaster][data-x-position="right"]) {
+            right: max(var(--offset), env(safe-area-inset-right))
+        }
+
+        :where([data-sonner-toaster][data-x-position="left"]) {
+            left: max(var(--offset), env(safe-area-inset-left))
+        }
+
+        :where([data-sonner-toaster][data-x-position="center"]) {
+            left: 50%;
+            transform: translate(-50%)
+        }
+
+        :where([data-sonner-toaster][data-y-position="top"]) {
+            top: max(var(--offset), env(safe-area-inset-top))
+        }
+
+        :where([data-sonner-toaster][data-y-position="bottom"]) {
+            bottom: max(var(--offset), env(safe-area-inset-bottom))
+        }
+
+        :where([data-sonner-toast]) {
+            --y: translateY(100%);
+            --lift-amount: calc(var(--lift) * var(--gap));
+            z-index: var(--z-index);
+            position: absolute;
+            opacity: 0;
+            transform: var(--y);
+            filter: blur(0);
+            touch-action: none;
+            transition: transform .4s, opacity .4s, height .4s, box-shadow .2s;
+            box-sizing: border-box;
+            outline: none;
+            overflow-wrap: anywhere
+        }
+
+        :where([data-sonner-toast][data-styled="true"]) {
+            padding: 16px;
+            background: var(--normal-bg);
+            border: 1px solid var(--normal-border);
+            color: var(--normal-text);
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 12px #0000001a;
+            width: var(--width);
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            gap: 6px
+        }
+
+        :where([data-sonner-toast]:focus-visible) {
+            box-shadow: 0 4px 12px #0000001a, 0 0 0 2px #0003
+        }
+
+        :where([data-sonner-toast][data-y-position="top"]) {
+            top: 0;
+            --y: translateY(-100%);
+            --lift: 1;
+            --lift-amount: calc(1 * var(--gap))
+        }
+
+        :where([data-sonner-toast][data-y-position="bottom"]) {
+            bottom: 0;
+            --y: translateY(100%);
+            --lift: -1;
+            --lift-amount: calc(var(--lift) * var(--gap))
+        }
+
+        :where([data-sonner-toast]) :where([data-description]) {
+            font-weight: 400;
+            line-height: 1.4;
+            color: inherit
+        }
+
+        :where([data-sonner-toast]) :where([data-title]) {
+            font-weight: 500;
+            line-height: 1.5;
+            color: inherit
+        }
+
+        :where([data-sonner-toast]) :where([data-icon]) {
+            display: flex;
+            height: 16px;
+            width: 16px;
+            position: relative;
+            justify-content: flex-start;
+            align-items: center;
+            flex-shrink: 0;
+            margin-left: var(--toast-icon-margin-start);
+            margin-right: var(--toast-icon-margin-end)
+        }
+
+        :where([data-sonner-toast][data-promise="true"]) :where([data-icon])>svg {
+            opacity: 0;
+            transform: scale(.8);
+            transform-origin: center;
+            animation: sonner-fade-in .3s ease forwards
+        }
+
+        :where([data-sonner-toast]) :where([data-icon])>* {
+            flex-shrink: 0
+        }
+
+        :where([data-sonner-toast]) :where([data-icon]) svg {
+            margin-left: var(--toast-svg-margin-start);
+            margin-right: var(--toast-svg-margin-end)
+        }
+
+        :where([data-sonner-toast]) :where([data-content]) {
+            display: flex;
+            flex-direction: column;
+            gap: 2px
+        }
+
+        [data-sonner-toast][data-styled=true] [data-button] {
+            border-radius: 4px;
+            padding-left: 8px;
+            padding-right: 8px;
+            height: 24px;
+            font-size: 12px;
+            color: var(--normal-bg);
+            background: var(--normal-text);
+            margin-left: var(--toast-button-margin-start);
+            margin-right: var(--toast-button-margin-end);
+            border: none;
+            cursor: pointer;
+            outline: none;
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+            transition: opacity .4s, box-shadow .2s
+        }
+
+        :where([data-sonner-toast]) :where([data-button]):focus-visible {
+            box-shadow: 0 0 0 2px #0006
+        }
+
+        :where([data-sonner-toast]) :where([data-button]):first-of-type {
+            margin-left: var(--toast-button-margin-start);
+            margin-right: var(--toast-button-margin-end)
+        }
+
+        :where([data-sonner-toast]) :where([data-cancel]) {
+            color: var(--normal-text);
+            background: rgba(0, 0, 0, .08)
+        }
+
+        :where([data-sonner-toast][data-theme="dark"]) :where([data-cancel]) {
+            background: rgba(255, 255, 255, .3)
+        }
+
+        :where([data-sonner-toast]) :where([data-close-button]) {
+            position: absolute;
+            left: var(--toast-close-button-start);
+            right: var(--toast-close-button-end);
+            top: 0;
+            height: 20px;
+            width: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            background: var(--gray1);
+            color: var(--gray12);
+            border: 1px solid var(--gray4);
+            transform: var(--toast-close-button-transform);
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 1;
+            transition: opacity .1s, background .2s, border-color .2s
+        }
+
+        :where([data-sonner-toast]) :where([data-close-button]):focus-visible {
+            box-shadow: 0 4px 12px #0000001a, 0 0 0 2px #0003
+        }
+
+        :where([data-sonner-toast]) :where([data-disabled="true"]) {
+            cursor: not-allowed
+        }
+
+        :where([data-sonner-toast]):hover :where([data-close-button]):hover {
+            background: var(--gray2);
+            border-color: var(--gray5)
+        }
+
+        :where([data-sonner-toast][data-swiping="true"]):before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 100%;
+            z-index: -1
+        }
+
+        :where([data-sonner-toast][data-y-position="top"][data-swiping="true"]):before {
+            bottom: 50%;
+            transform: scaleY(3) translateY(50%)
+        }
+
+        :where([data-sonner-toast][data-y-position="bottom"][data-swiping="true"]):before {
+            top: 50%;
+            transform: scaleY(3) translateY(-50%)
+        }
+
+        :where([data-sonner-toast][data-swiping="false"][data-removed="true"]):before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            transform: scaleY(2)
+        }
+
+        :where([data-sonner-toast]):after {
+            content: "";
+            position: absolute;
+            left: 0;
+            height: calc(var(--gap) + 1px);
+            bottom: 100%;
+            width: 100%
+        }
+
+        :where([data-sonner-toast][data-mounted="true"]) {
+            --y: translateY(0);
+            opacity: 1
+        }
+
+        :where([data-sonner-toast][data-expanded="false"][data-front="false"]) {
+            --scale: var(--toasts-before) * .05 + 1;
+            --y: translateY(calc(var(--lift-amount) * var(--toasts-before))) scale(calc(-1 * var(--scale)));
+            height: var(--front-toast-height)
+        }
+
+        :where([data-sonner-toast])>* {
+            transition: opacity .4s
+        }
+
+        :where([data-sonner-toast][data-expanded="false"][data-front="false"][data-styled="true"])>* {
+            opacity: 0
+        }
+
+        :where([data-sonner-toast][data-visible="false"]) {
+            opacity: 0;
+            pointer-events: none
+        }
+
+        :where([data-sonner-toast][data-mounted="true"][data-expanded="true"]) {
+            --y: translateY(calc(var(--lift) * var(--offset)));
+            height: var(--initial-height)
+        }
+
+        :where([data-sonner-toast][data-removed="true"][data-front="true"][data-swipe-out="false"]) {
+            --y: translateY(calc(var(--lift) * -100%));
+            opacity: 0
+        }
+
+        :where([data-sonner-toast][data-removed="true"][data-front="false"][data-swipe-out="false"][data-expanded="true"]) {
+            --y: translateY(calc(var(--lift) * var(--offset) + var(--lift) * -100%));
+            opacity: 0
+        }
+
+        :where([data-sonner-toast][data-removed="true"][data-front="false"][data-swipe-out="false"][data-expanded="false"]) {
+            --y: translateY(40%);
+            opacity: 0;
+            transition: transform .5s, opacity .2s
+        }
+
+        :where([data-sonner-toast][data-removed="true"][data-front="false"]):before {
+            height: calc(var(--initial-height) + 20%)
+        }
+
+        [data-sonner-toast][data-swiping=true] {
+            transform: var(--y) translateY(var(--swipe-amount, 0px));
+            transition: none
+        }
+
+        [data-sonner-toast][data-swipe-out=true][data-y-position=bottom],
+        [data-sonner-toast][data-swipe-out=true][data-y-position=top] {
+            animation: swipe-out .2s ease-out forwards
+        }
+
+        @keyframes swipe-out {
+            0% {
+                transform: translateY(calc(var(--lift) * var(--offset) + var(--swipe-amount)));
+                opacity: 1
+            }
+
+            to {
+                transform: translateY(calc(var(--lift) * var(--offset) + var(--swipe-amount) + var(--lift) * -100%));
+                opacity: 0
+            }
+        }
+
+        @media (max-width: 600px) {
+            [data-sonner-toaster] {
+                position: fixed;
+                --mobile-offset: 16px;
+                right: var(--mobile-offset);
+                left: var(--mobile-offset);
+                width: 100%
+            }
+
+            [data-sonner-toaster] [data-sonner-toast] {
+                left: 0;
+                right: 0;
+                width: calc(100% - var(--mobile-offset) * 2)
+            }
+
+            [data-sonner-toaster][data-x-position=left] {
+                left: var(--mobile-offset)
+            }
+
+            [data-sonner-toaster][data-y-position=bottom] {
+                bottom: 20px
+            }
+
+            [data-sonner-toaster][data-y-position=top] {
+                top: 20px
+            }
+
+            [data-sonner-toaster][data-x-position=center] {
+                left: var(--mobile-offset);
+                right: var(--mobile-offset);
+                transform: none
+            }
+        }
+
+        [data-sonner-toaster][data-theme=light] {
+            --normal-bg: #fff;
+            --normal-border: var(--gray4);
+            --normal-text: var(--gray12);
+            --success-bg: hsl(143, 85%, 96%);
+            --success-border: hsl(145, 92%, 91%);
+            --success-text: hsl(140, 100%, 27%);
+            --info-bg: hsl(208, 100%, 97%);
+            --info-border: hsl(221, 91%, 91%);
+            --info-text: hsl(210, 92%, 45%);
+            --warning-bg: hsl(49, 100%, 97%);
+            --warning-border: hsl(49, 91%, 91%);
+            --warning-text: hsl(31, 92%, 45%);
+            --error-bg: hsl(359, 100%, 97%);
+            --error-border: hsl(359, 100%, 94%);
+            --error-text: hsl(360, 100%, 45%)
+        }
+
+        [data-sonner-toaster][data-theme=light] [data-sonner-toast][data-invert=true] {
+            --normal-bg: #000;
+            --normal-border: hsl(0, 0%, 20%);
+            --normal-text: var(--gray1)
+        }
+
+        [data-sonner-toaster][data-theme=dark] [data-sonner-toast][data-invert=true] {
+            --normal-bg: #fff;
+            --normal-border: var(--gray3);
+            --normal-text: var(--gray12)
+        }
+
+        [data-sonner-toaster][data-theme=dark] {
+            --normal-bg: #000;
+            --normal-border: hsl(0, 0%, 20%);
+            --normal-text: var(--gray1);
+            --success-bg: hsl(150, 100%, 6%);
+            --success-border: hsl(147, 100%, 12%);
+            --success-text: hsl(150, 86%, 65%);
+            --info-bg: hsl(215, 100%, 6%);
+            --info-border: hsl(223, 100%, 12%);
+            --info-text: hsl(216, 87%, 65%);
+            --warning-bg: hsl(64, 100%, 6%);
+            --warning-border: hsl(60, 100%, 12%);
+            --warning-text: hsl(46, 87%, 65%);
+            --error-bg: hsl(358, 76%, 10%);
+            --error-border: hsl(357, 89%, 16%);
+            --error-text: hsl(358, 100%, 81%)
+        }
+
+        [data-rich-colors=true][data-sonner-toast][data-type=success],
+        [data-rich-colors=true][data-sonner-toast][data-type=success] [data-close-button] {
+            background: var(--success-bg);
+            border-color: var(--success-border);
+            color: var(--success-text)
+        }
+
+        [data-rich-colors=true][data-sonner-toast][data-type=info],
+        [data-rich-colors=true][data-sonner-toast][data-type=info] [data-close-button] {
+            background: var(--info-bg);
+            border-color: var(--info-border);
+            color: var(--info-text)
+        }
+
+        [data-rich-colors=true][data-sonner-toast][data-type=warning],
+        [data-rich-colors=true][data-sonner-toast][data-type=warning] [data-close-button] {
+            background: var(--warning-bg);
+            border-color: var(--warning-border);
+            color: var(--warning-text)
+        }
+
+        [data-rich-colors=true][data-sonner-toast][data-type=error],
+        [data-rich-colors=true][data-sonner-toast][data-type=error] [data-close-button] {
+            background: var(--error-bg);
+            border-color: var(--error-border);
+            color: var(--error-text)
+        }
+
+        .sonner-loading-wrapper {
+            --size: 16px;
+            height: var(--size);
+            width: var(--size);
+            position: absolute;
+            inset: 0;
+            z-index: 10
+        }
+
+        .sonner-loading-wrapper[data-visible=false] {
+            transform-origin: center;
+            animation: sonner-fade-out .2s ease forwards
+        }
+
+        .sonner-spinner {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            height: var(--size);
+            width: var(--size)
+        }
+
+        .sonner-loading-bar {
+            animation: sonner-spin 1.2s linear infinite;
+            background: var(--gray11);
+            border-radius: 6px;
+            height: 8%;
+            left: -10%;
+            position: absolute;
+            top: -3.9%;
+            width: 24%
+        }
+
+        .sonner-loading-bar:nth-child(1) {
+            animation-delay: -1.2s;
+            transform: rotate(.0001deg) translate(146%)
+        }
+
+        .sonner-loading-bar:nth-child(2) {
+            animation-delay: -1.1s;
+            transform: rotate(30deg) translate(146%)
+        }
+
+        .sonner-loading-bar:nth-child(3) {
+            animation-delay: -1s;
+            transform: rotate(60deg) translate(146%)
+        }
+
+        .sonner-loading-bar:nth-child(4) {
+            animation-delay: -.9s;
+            transform: rotate(90deg) translate(146%)
+        }
+
+        .sonner-loading-bar:nth-child(5) {
+            animation-delay: -.8s;
+            transform: rotate(120deg) translate(146%)
+        }
+
+        .sonner-loading-bar:nth-child(6) {
+            animation-delay: -.7s;
+            transform: rotate(150deg) translate(146%)
+        }
+
+        .sonner-loading-bar:nth-child(7) {
+            animation-delay: -.6s;
+            transform: rotate(180deg) translate(146%)
+        }
+
+        .sonner-loading-bar:nth-child(8) {
+            animation-delay: -.5s;
+            transform: rotate(210deg) translate(146%)
+        }
+
+        .sonner-loading-bar:nth-child(9) {
+            animation-delay: -.4s;
+            transform: rotate(240deg) translate(146%)
+        }
+
+        .sonner-loading-bar:nth-child(10) {
+            animation-delay: -.3s;
+            transform: rotate(270deg) translate(146%)
+        }
+
+        .sonner-loading-bar:nth-child(11) {
+            animation-delay: -.2s;
+            transform: rotate(300deg) translate(146%)
+        }
+
+        .sonner-loading-bar:nth-child(12) {
+            animation-delay: -.1s;
+            transform: rotate(330deg) translate(146%)
+        }
+
+        @keyframes sonner-fade-in {
+            0% {
+                opacity: 0;
+                transform: scale(.8)
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1)
+            }
+        }
+
+        @keyframes sonner-fade-out {
+            0% {
+                opacity: 1;
+                transform: scale(1)
+            }
+
+            to {
+                opacity: 0;
+                transform: scale(.8)
+            }
+        }
+
+        @keyframes sonner-spin {
+            0% {
+                opacity: 1
+            }
+
+            to {
+                opacity: .15
+            }
+        }
+
+        @media (prefers-reduced-motion) {
+
+            [data-sonner-toast],
+            [data-sonner-toast]>*,
+            .sonner-loading-bar {
+                transition: none !important;
+                animation: none !important
+            }
+        }
+
+        .sonner-loader {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transform-origin: center;
+            transition: opacity .2s, transform .2s
+        }
+
+        .sonner-loader[data-visible=false] {
+            opacity: 0;
+            transform: scale(.8) translate(-50%, -50%)
+        }
+    </style>
+    <script src="/_vercel/insights/script.js" defer="" data-sdkn="@vercel/analytics/react" data-sdkv="1.3.1"></script>
+    <script src="/_vercel/speed-insights/script.js" defer="" data-sdkn="@vercel/speed-insights/next" data-sdkv="1.0.12"
+        data-route="/search"></script>
+    <style id="googleidentityservice_button_styles" nonce="">
+        .qJTHM {
+            -webkit-user-select: none;
+            color: #202124;
+            direction: ltr;
+            -webkit-touch-callout: none;
+            font-family: "Roboto-Regular", arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            font-weight: 400;
+            margin: 0;
+            overflow: hidden;
+            -webkit-text-size-adjust: 100%
+        }
+
+        .ynRLnc {
+            left: -9999px;
+            position: absolute;
+            top: -9999px
+        }
+
+        .L6cTce {
+            display: none
+        }
+
+        .bltWBb {
+            word-break: break-all
+        }
+
+        .hSRGPd {
+            color: #1a73e8;
+            cursor: pointer;
+            font-weight: 500;
+            text-decoration: none
+        }
+
+        .Bz112c-W3lGp {
+            height: 16px;
+            width: 16px
+        }
+
+        .Bz112c-E3DyYd {
+            height: 20px;
+            width: 20px
+        }
+
+        .Bz112c-r9oPif {
+            height: 24px;
+            width: 24px
+        }
+
+        .Bz112c-uaxL4e {
+            -webkit-border-radius: 10px;
+            border-radius: 10px
+        }
+
+        .LgbsSe-Bz112c {
+            display: block
+        }
+
+        .S9gUrf-YoZ4jf,
+        .S9gUrf-YoZ4jf * {
+            border: none;
+            margin: 0;
+            padding: 0
+        }
+
+        .fFW7wc-ibnC6b>.aZ2wEe>div {
+            border-color: #4285f4
+        }
+
+        .P1ekSe-ZMv3u>div:nth-child(1) {
+            background-color: #1a73e8 !important
+        }
+
+        .P1ekSe-ZMv3u>div:nth-child(2),
+        .P1ekSe-ZMv3u>div:nth-child(3) {
+            background-image: linear-gradient(to right, rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), linear-gradient(to right, #1a73e8, #1a73e8) !important
+        }
+
+        .haAclf {
+            display: inline-block
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe {
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-transition: background-color .218s, border-color .218s;
+            transition: background-color .218s, border-color .218s;
+            -webkit-user-select: none;
+            -webkit-appearance: none;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #dadce0;
+            color: #3c4043;
+            cursor: pointer;
+            font-family: "Google Sans", arial, sans-serif;
+            font-size: 14px;
+            height: 40px;
+            letter-spacing: 0.25px;
+            outline: none;
+            overflow: hidden;
+            padding: 0 12px;
+            position: relative;
+            text-align: center;
+            vertical-align: middle;
+            white-space: nowrap;
+            width: auto
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .nsm7Bb-HzV7m-LgbsSe {
+                border: 2px solid windowText;
+                color: windowText
+            }
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe {
+            font-size: 14px;
+            height: 32px;
+            letter-spacing: 0.25px;
+            padding: 0 10px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe {
+            font-size: 11px;
+            height: 20px;
+            letter-spacing: 0.3px;
+            padding: 0 8px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe {
+            padding: 0;
+            width: 40px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe {
+            width: 32px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe {
+            width: 20px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK {
+            -webkit-border-radius: 20px;
+            border-radius: 20px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.pSzOP-SxQuSe {
+            -webkit-border-radius: 16px;
+            border-radius: 16px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.purZT-SxQuSe {
+            -webkit-border-radius: 10px;
+            border-radius: 10px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc {
+            border: none;
+            color: #fff
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.MFS4be-v3pZbf-Ia7Qfc {
+            background-color: #1a73e8
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc {
+            background-color: #202124;
+            color: #e8eaed
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+            height: 18px;
+            margin-right: 8px;
+            min-width: 18px;
+            width: 18px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+            height: 14px;
+            min-width: 14px;
+            width: 14px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+            height: 10px;
+            min-width: 10px;
+            width: 10px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+            margin-left: 8px;
+            margin-right: -4px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+            margin: 0;
+            padding: 10px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+            padding: 8px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+            padding: 4px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+            -webkit-border-top-left-radius: 3px;
+            border-top-left-radius: 3px;
+            -webkit-border-bottom-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: center;
+            -webkit-align-items: center;
+            align-items: center;
+            background-color: #fff;
+            height: 36px;
+            margin-left: -10px;
+            margin-right: 12px;
+            min-width: 36px;
+            width: 36px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c,
+        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+            margin: 0;
+            padding: 0
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+            height: 28px;
+            margin-left: -8px;
+            margin-right: 10px;
+            min-width: 28px;
+            width: 28px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+            height: 16px;
+            margin-left: -6px;
+            margin-right: 8px;
+            min-width: 16px;
+            width: 16px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            margin-left: 2px;
+            margin-right: 0;
+            padding: 0
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+            -webkit-border-radius: 18px;
+            border-radius: 18px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+            -webkit-border-radius: 14px;
+            border-radius: 14px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+            -webkit-border-radius: 8px;
+            border-radius: 8px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-flex-direction: row;
+            flex-direction: row;
+            justify-content: space-between;
+            -webkit-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            height: 100%;
+            position: relative;
+            width: 100%
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX {
+            justify-content: center
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
+            -webkit-flex-grow: 1;
+            flex-grow: 1;
+            font-family: "Google Sans", arial, sans-serif;
+            font-weight: 500;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            vertical-align: top
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
+            font-weight: 300
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX .nsm7Bb-HzV7m-LgbsSe-BPrWId {
+            -webkit-flex-grow: 0;
+            flex-grow: 0
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+            -webkit-transition: background-color .218s;
+            transition: background-color .218s;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe:hover,
+        .nsm7Bb-HzV7m-LgbsSe:focus {
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border-color: #d2e3fc;
+            outline: none
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,
+        .nsm7Bb-HzV7m-LgbsSe:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+            background: rgba(66, 133, 244, .04)
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+            background: rgba(66, 133, 244, .1)
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,
+        .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+            background: rgba(255, 255, 255, .24)
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+            background: rgba(255, 255, 255, .32)
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe .n1UuX-DkfjY {
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            height: 20px;
+            margin-left: -4px;
+            margin-right: 8px;
+            min-width: 20px;
+            width: 20px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
+            font-family: "Roboto";
+            font-size: 12px;
+            text-align: left
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .ssJRIf,
+        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .fmcmS {
+            overflow: hidden;
+            text-overflow: ellipsis
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;
+            color: #5f6368;
+            fill: #5f6368;
+            font-size: 11px;
+            font-weight: 400
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff {
+            color: #e8eaed;
+            fill: #e8eaed
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .Bz112c {
+            height: 18px;
+            margin: -3px -3px -3px 2px;
+            min-width: 18px;
+            width: 18px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+            -webkit-border-top-left-radius: 0;
+            border-top-left-radius: 0;
+            -webkit-border-bottom-left-radius: 0;
+            border-bottom-left-radius: 0;
+            -webkit-border-top-right-radius: 3px;
+            border-top-right-radius: 3px;
+            -webkit-border-bottom-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+            margin-left: 12px;
+            margin-right: -10px
+        }
+
+        .nsm7Bb-HzV7m-LgbsSe.jVeSEe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+            -webkit-border-radius: 18px;
+            border-radius: 18px
+        }
+
+        .L5Fo6c-sM5MNb {
+            border: 0;
+            display: block;
+            left: 0;
+            position: relative;
+            top: 0
+        }
+
+        .L5Fo6c-bF1uUb {
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+            bottom: 0;
+            cursor: pointer;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0
+        }
+
+        .L5Fo6c-bF1uUb:focus {
+            border: none;
+            outline: none
+        }
+
+        sentinel {}
+    </style>
+</head>
+
+<body class="flex min-h-screen flex-col">
+    <div>
+        <script>!function () { try { var d = document.documentElement, c = d.classList; c.remove('light', 'dark'); var e = localStorage.getItem('theme'); if ('system' === e || (!e && true)) { var t = '(prefers-color-scheme: dark)', m = window.matchMedia(t); if (m.media !== t || m.matches) { d.style.colorScheme = 'dark'; c.add('dark') } else { d.style.colorScheme = 'light'; c.add('light') } } else if (e) { c.add(e || '') } if (e === 'light' || e === 'dark') d.style.colorScheme = e } catch (e) { } }()</script>
+        <div class="h-screen md:fixed md:inset-0 md:flex">
+            <div class="block md:hidden">
+                <nav
+                    class="fixed left-1/2 top-4 z-50 w-[calc(100%-2rem)] max-w-[calc(100%-2rem)] -translate-x-1/2 rounded-2xl border backdrop-blur-xl">
+                    <div class="flex h-12 items-center justify-between px-4">
+                        <div class="flex items-center">
+                            <div class="mr-2 flex cursor-pointer items-center" type="button" aria-haspopup="dialog"
+                                aria-expanded="false" aria-controls="radix-:r0:" data-state="closed"><button
+                                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-7 p-1"
+                                    type="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide lucide-menu h-4 w-4">
+                                        <line x1="4" x2="20" y1="12" y2="12"></line>
+                                        <line x1="4" x2="20" y1="6" y2="6"></line>
+                                        <line x1="4" x2="20" y1="18" y2="18"></line>
+                                    </svg></button></div><a href="/search">
+                                <h1 class="text-xl font-semibold">Happenstance</h1>
+                            </a>
+                        </div>
+                        <div class="flex items-center space-x-2"><button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-9 relative p-2 hover:bg-border"
+                                type="button" tabindex="0">
+                                <div class="relative h-5 w-5"><svg width="15" height="15" viewBox="0 0 15 15"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="absolute inset-0 h-full w-full rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0">
+                                        <path
+                                            d="M7.5 0C7.77614 0 8 0.223858 8 0.5V2.5C8 2.77614 7.77614 3 7.5 3C7.22386 3 7 2.77614 7 2.5V0.5C7 0.223858 7.22386 0 7.5 0ZM2.1967 2.1967C2.39196 2.00144 2.70854 2.00144 2.90381 2.1967L4.31802 3.61091C4.51328 3.80617 4.51328 4.12276 4.31802 4.31802C4.12276 4.51328 3.80617 4.51328 3.61091 4.31802L2.1967 2.90381C2.00144 2.70854 2.00144 2.39196 2.1967 2.1967ZM0.5 7C0.223858 7 0 7.22386 0 7.5C0 7.77614 0.223858 8 0.5 8H2.5C2.77614 8 3 7.77614 3 7.5C3 7.22386 2.77614 7 2.5 7H0.5ZM2.1967 12.8033C2.00144 12.608 2.00144 12.2915 2.1967 12.0962L3.61091 10.682C3.80617 10.4867 4.12276 10.4867 4.31802 10.682C4.51328 10.8772 4.51328 11.1938 4.31802 11.3891L2.90381 12.8033C2.70854 12.9986 2.39196 12.9986 2.1967 12.8033ZM12.5 7C12.2239 7 12 7.22386 12 7.5C12 7.77614 12.2239 8 12.5 8H14.5C14.7761 8 15 7.77614 15 7.5C15 7.22386 14.7761 7 14.5 7H12.5ZM10.682 4.31802C10.4867 4.12276 10.4867 3.80617 10.682 3.61091L12.0962 2.1967C12.2915 2.00144 12.608 2.00144 12.8033 2.1967C12.9986 2.39196 12.9986 2.70854 12.8033 2.90381L11.3891 4.31802C11.1938 4.51328 10.8772 4.51328 10.682 4.31802ZM8 12.5C8 12.2239 7.77614 12 7.5 12C7.22386 12 7 12.2239 7 12.5V14.5C7 14.7761 7.22386 15 7.5 15C7.77614 15 8 14.7761 8 14.5V12.5ZM10.682 10.682C10.8772 10.4867 11.1938 10.4867 11.3891 10.682L12.8033 12.0962C12.9986 12.2915 12.9986 12.608 12.8033 12.8033C12.608 12.9986 12.2915 12.9986 12.0962 12.8033L10.682 11.3891C10.4867 11.1938 10.4867 10.8772 10.682 10.682ZM5.5 7.5C5.5 6.39543 6.39543 5.5 7.5 5.5C8.60457 5.5 9.5 6.39543 9.5 7.5C9.5 8.60457 8.60457 9.5 7.5 9.5C6.39543 9.5 5.5 8.60457 5.5 7.5ZM7.5 4.5C5.84315 4.5 4.5 5.84315 4.5 7.5C4.5 9.15685 5.84315 10.5 7.5 10.5C9.15685 10.5 10.5 9.15685 10.5 7.5C10.5 5.84315 9.15685 4.5 7.5 4.5Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg><svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="absolute inset-0 h-full w-full rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100">
+                                        <path
+                                            d="M2.89998 0.499976C2.89998 0.279062 2.72089 0.0999756 2.49998 0.0999756C2.27906 0.0999756 2.09998 0.279062 2.09998 0.499976V1.09998H1.49998C1.27906 1.09998 1.09998 1.27906 1.09998 1.49998C1.09998 1.72089 1.27906 1.89998 1.49998 1.89998H2.09998V2.49998C2.09998 2.72089 2.27906 2.89998 2.49998 2.89998C2.72089 2.89998 2.89998 2.72089 2.89998 2.49998V1.89998H3.49998C3.72089 1.89998 3.89998 1.72089 3.89998 1.49998C3.89998 1.27906 3.72089 1.09998 3.49998 1.09998H2.89998V0.499976ZM5.89998 3.49998C5.89998 3.27906 5.72089 3.09998 5.49998 3.09998C5.27906 3.09998 5.09998 3.27906 5.09998 3.49998V4.09998H4.49998C4.27906 4.09998 4.09998 4.27906 4.09998 4.49998C4.09998 4.72089 4.27906 4.89998 4.49998 4.89998H5.09998V5.49998C5.09998 5.72089 5.27906 5.89998 5.49998 5.89998C5.72089 5.89998 5.89998 5.72089 5.89998 5.49998V4.89998H6.49998C6.72089 4.89998 6.89998 4.72089 6.89998 4.49998C6.89998 4.27906 6.72089 4.09998 6.49998 4.09998H5.89998V3.49998ZM1.89998 6.49998C1.89998 6.27906 1.72089 6.09998 1.49998 6.09998C1.27906 6.09998 1.09998 6.27906 1.09998 6.49998V7.09998H0.499976C0.279062 7.09998 0.0999756 7.27906 0.0999756 7.49998C0.0999756 7.72089 0.279062 7.89998 0.499976 7.89998H1.09998V8.49998C1.09998 8.72089 1.27906 8.89997 1.49998 8.89997C1.72089 8.89997 1.89998 8.72089 1.89998 8.49998V7.89998H2.49998C2.72089 7.89998 2.89998 7.72089 2.89998 7.49998C2.89998 7.27906 2.72089 7.09998 2.49998 7.09998H1.89998V6.49998ZM8.54406 0.98184L8.24618 0.941586C8.03275 0.917676 7.90692 1.1655 8.02936 1.34194C8.17013 1.54479 8.29981 1.75592 8.41754 1.97445C8.91878 2.90485 9.20322 3.96932 9.20322 5.10022C9.20322 8.37201 6.82247 11.0878 3.69887 11.6097C3.45736 11.65 3.20988 11.6772 2.96008 11.6906C2.74563 11.702 2.62729 11.9535 2.77721 12.1072C2.84551 12.1773 2.91535 12.2458 2.98667 12.3128L3.05883 12.3795L3.31883 12.6045L3.50684 12.7532L3.62796 12.8433L3.81491 12.9742L3.99079 13.089C4.11175 13.1651 4.23536 13.2375 4.36157 13.3059L4.62496 13.4412L4.88553 13.5607L5.18837 13.6828L5.43169 13.7686C5.56564 13.8128 5.70149 13.8529 5.83857 13.8885C5.94262 13.9155 6.04767 13.9401 6.15405 13.9622C6.27993 13.9883 6.40713 14.0109 6.53544 14.0298L6.85241 14.0685L7.11934 14.0892C7.24637 14.0965 7.37436 14.1002 7.50322 14.1002C11.1483 14.1002 14.1032 11.1453 14.1032 7.50023C14.1032 7.25044 14.0893 7.00389 14.0623 6.76131L14.0255 6.48407C13.991 6.26083 13.9453 6.04129 13.8891 5.82642C13.8213 5.56709 13.7382 5.31398 13.6409 5.06881L13.5279 4.80132L13.4507 4.63542L13.3766 4.48666C13.2178 4.17773 13.0353 3.88295 12.8312 3.60423L12.6782 3.40352L12.4793 3.16432L12.3157 2.98361L12.1961 2.85951L12.0355 2.70246L11.8134 2.50184L11.4925 2.24191L11.2483 2.06498L10.9562 1.87446L10.6346 1.68894L10.3073 1.52378L10.1938 1.47176L9.95488 1.3706L9.67791 1.2669L9.42566 1.1846L9.10075 1.09489L8.83599 1.03486L8.54406 0.98184ZM10.4032 5.30023C10.4032 4.27588 10.2002 3.29829 9.83244 2.40604C11.7623 3.28995 13.1032 5.23862 13.1032 7.50023C13.1032 10.593 10.596 13.1002 7.50322 13.1002C6.63646 13.1002 5.81597 12.9036 5.08355 12.5522C6.5419 12.0941 7.81081 11.2082 8.74322 10.0416C8.87963 10.2284 9.10028 10.3497 9.34928 10.3497C9.76349 10.3497 10.0993 10.0139 10.0993 9.59971C10.0993 9.24256 9.84965 8.94373 9.51535 8.86816C9.57741 8.75165 9.63653 8.63334 9.6926 8.51332C9.88358 8.63163 10.1088 8.69993 10.35 8.69993C11.0403 8.69993 11.6 8.14028 11.6 7.44993C11.6 6.75976 11.0406 6.20024 10.3505 6.19993C10.3853 5.90487 10.4032 5.60464 10.4032 5.30023Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg></div>
+                            </button><button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-9 p-1 hover:bg-border"
+                                type="button" id="radix-:r3:" aria-haspopup="menu" aria-expanded="false"
+                                data-state="closed" tabindex="0"><span
+                                    class="relative flex shrink-0 overflow-hidden rounded-full h-7 w-7"><img
+                                        class="aspect-square object-cover h-full w-full"
+                                        src="https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ybVhlbWF4NHBhUGk1eHMwcmtTbTJIZmxscTYifQ"></span></button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="hidden md:block">
+                <aside
+                    class="top-0 z-50 flex h-screen min-h-screen w-64 relative shrink-0 flex-col overflow-auto overflow-x-hidden bg-muted p-2 transition-all duration-200 ease-out">
+                    <div class="group absolute right-0 top-0 h-full w-[10px] cursor-pointer">
+                        <div class="absolute right-0 top-0 h-full w-[2px] bg-border group-hover:bg-primary"></div>
+                    </div>
+                    <div class="flex h-full flex-col">
+                        <div class="flex w-full items-center justify-between pb-2"><a
+                                class="flex h-9 items-center rounded-md px-2 hover:bg-border" href="/search">
+                                <h1 class="text-2xl font-semibold">Happenstance</h1>
+                            </a><a href="/search"><button
+                                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-9 w-9 hover:bg-border"
+                                    type="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide lucide-square-pen h-5 w-5">
+                                        <path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                                        <path
+                                            d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z">
+                                        </path>
+                                    </svg></button></a></div>
+                        <div dir="ltr" class="relative overflow-hidden"
+                            style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;">
+                            <style>
+                                [data-radix-scroll-area-viewport] {
+                                    scrollbar-width: none;
+                                    -ms-overflow-style: none;
+                                    -webkit-overflow-scrolling: touch;
+                                }
+
+                                [data-radix-scroll-area-viewport]::-webkit-scrollbar {
+                                    display: none
+                                }
+                            </style>
+                            <div data-radix-scroll-area-viewport="" class="h-full w-full rounded-[inherit]"
+                                style="overflow: hidden scroll;">
+                                <div style="min-width: 100%; display: table;">
+                                    <div class="space-y-4">
+                                        <div>
+                                            <div class="flex items-center px-2">
+                                                <p class="text-sm font-semibold">Connections</p>
+                                            </div>
+                                            <div class="flex justify-center">
+                                                <div class="w-full" type="button" aria-haspopup="dialog"
+                                                    aria-expanded="false" aria-controls="radix-:r7:"
+                                                    data-state="closed">
+                                                    <div class="rounded-md">
+                                                        <div
+                                                            class="border text-card-foreground group cursor-pointer rounded-md border-none bg-muted px-2 py-2 shadow-none transition duration-100 hover:bg-border">
+                                                            <h3
+                                                                class="font-semibold leading-none tracking-tight flex h-5 items-center justify-between">
+                                                                <div class="flex items-center space-x-2"><img
+                                                                        alt="Gmail" loading="lazy" width="0" height="0"
+                                                                        decoding="async" data-nimg="1"
+                                                                        class="h-[22px] w-[22px]" src="/logos/gmail.svg"
+                                                                        style="color: transparent;"><span
+                                                                        class="text-sm font-medium opacity-75 group-hover:opacity-100">Active</span>
+                                                                </div>
+                                                                <div class="flex items-center"><svg
+                                                                        xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        class="lucide lucide-circle-check h-5 w-5 text-primary">
+                                                                        <circle cx="12" cy="12" r="10"></circle>
+                                                                        <path d="m9 12 2 2 4-4"></path>
+                                                                    </svg></div>
+                                                            </h3>
+                                                        </div>
+                                                        <div
+                                                            class="border text-card-foreground group cursor-pointer rounded-md border-none bg-muted px-2 py-2 shadow-none transition duration-100 hover:bg-border">
+                                                            <h3
+                                                                class="font-semibold leading-none tracking-tight flex h-5 items-center justify-between">
+                                                                <div class="flex items-center space-x-2"><img
+                                                                        alt="LinkedIn" loading="lazy" width="0"
+                                                                        height="0" decoding="async" data-nimg="1"
+                                                                        class="h-[22px] w-[22px]"
+                                                                        src="/logos/linkedin.svg"
+                                                                        style="color: transparent;"><span
+                                                                        class="text-sm font-medium opacity-75 group-hover:opacity-100">Active</span>
+                                                                </div><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="lucide lucide-circle-check h-5 w-5 text-primary">
+                                                                    <circle cx="12" cy="12" r="10"></circle>
+                                                                    <path d="m9 12 2 2 4-4"></path>
+                                                                </svg>
+                                                            </h3>
+                                                        </div>
+                                                        <div
+                                                            class="border text-card-foreground group cursor-pointer rounded-md border-none bg-muted px-2 py-2 shadow-none transition duration-100 hover:bg-border">
+                                                            <h3
+                                                                class="font-semibold leading-none tracking-tight flex h-5 items-center justify-between">
+                                                                <div class="flex items-center space-x-2"><img
+                                                                        alt="Twitter" loading="lazy" width="0"
+                                                                        height="0" decoding="async" data-nimg="1"
+                                                                        class="h-[22px] w-[22px]"
+                                                                        src="/logos/twitter.svg"
+                                                                        style="color: transparent;"><span
+                                                                        class="text-sm font-medium opacity-75 group-hover:opacity-100">Connect</span>
+                                                                </div>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div><button data-state="closed" class="w-full cursor-default px-2">
+                                                <p class="text-left text-sm font-semibold">Groups</p>
+                                            </button>
+                                            <div class="flex flex-col border-secondary"></div>
+                                            <div class="px-2 py-1"><a href="/group">
+                                                    <div
+                                                        class="group cursor-pointer text-sm font-medium text-muted-foreground hover:text-foreground">
+                                                        <div class="flex items-center space-x-[2px]"><span>Create
+                                                                group</span>
+                                                            <div style="transform: none;"><svg width="15" height="15"
+                                                                    viewBox="0 0 15 15" fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
+                                                                    <path
+                                                                        d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                                                        fill="currentColor" fill-rule="evenodd"
+                                                                        clip-rule="evenodd"></path>
+                                                                </svg></div>
+                                                        </div>
+                                                    </div>
+                                                </a></div>
+                                        </div>
+                                        <div>
+                                            <div class="flex items-center px-2">
+                                                <p class="text-sm font-semibold">Recents</p>
+                                            </div>
+                                            <div class="flex flex-col border-secondary"><a
+                                                    href="/search/5a67d9a7-f39e-43bb-9c56-5b99c566b88c">
+                                                    <div
+                                                        class="border text-card-foreground cursor-pointer rounded-md border-none bg-muted px-2 py-[0.375rem] opacity-75 shadow-none transition duration-100 hover:opacity-100 hover:bg-border">
+                                                        <h3
+                                                            class="tracking-tight flex items-center space-x-1 text-sm font-medium text-foreground">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="lucide lucide-search h-4 w-4">
+                                                                <circle cx="11" cy="11" r="8"></circle>
+                                                                <path d="m21 21-4.3-4.3"></path>
+                                                            </svg><span class="w-full max-w-48 truncate">CA luxury
+                                                                property realtors</span></h3>
+                                                    </div>
+                                                </a><a href="/search/b4e07797-2eaf-4b74-a8f6-8b8626e85b1d">
+                                                    <div
+                                                        class="border text-card-foreground cursor-pointer rounded-md border-none bg-muted px-2 py-[0.375rem] opacity-75 shadow-none transition duration-100 hover:opacity-100 hover:bg-border">
+                                                        <h3
+                                                            class="tracking-tight flex items-center space-x-1 text-sm font-medium text-foreground">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="lucide lucide-search h-4 w-4">
+                                                                <circle cx="11" cy="11" r="8"></circle>
+                                                                <path d="m21 21-4.3-4.3"></path>
+                                                            </svg><span class="w-full max-w-48 truncate">Realtors</span>
+                                                        </h3>
+                                                    </div>
+                                                </a><a href="/search/412845d3-6754-4363-bbef-f13705f24457">
+                                                    <div
+                                                        class="border text-card-foreground cursor-pointer rounded-md border-none bg-muted px-2 py-[0.375rem] opacity-75 shadow-none transition duration-100 hover:opacity-100 hover:bg-border">
+                                                        <h3
+                                                            class="tracking-tight flex items-center space-x-1 text-sm font-medium text-foreground">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="lucide lucide-search h-4 w-4">
+                                                                <circle cx="11" cy="11" r="8"></circle>
+                                                                <path d="m21 21-4.3-4.3"></path>
+                                                            </svg><span class="w-full max-w-48 truncate">Realtors
+                                                                SF/Irvine</span></h3>
+                                                    </div>
+                                                </a><a href="/search/ee84f1bd-7dbf-4e0a-a4a4-c04ee2a7259e">
+                                                    <div
+                                                        class="border text-card-foreground cursor-pointer rounded-md border-none bg-muted px-2 py-[0.375rem] opacity-75 shadow-none transition duration-100 hover:opacity-100 hover:bg-border">
+                                                        <h3
+                                                            class="tracking-tight flex items-center space-x-1 text-sm font-medium text-foreground">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="lucide lucide-search h-4 w-4">
+                                                                <circle cx="11" cy="11" r="8"></circle>
+                                                                <path d="m21 21-4.3-4.3"></path>
+                                                            </svg><span class="w-full max-w-48 truncate">Bay Area
+                                                                listing agents</span></h3>
+                                                    </div>
+                                                </a><a href="/search/c2ab1d17-07d9-4e2b-8b08-84f0d263f239">
+                                                    <div
+                                                        class="border text-card-foreground cursor-pointer rounded-md border-none bg-muted px-2 py-[0.375rem] opacity-75 shadow-none transition duration-100 hover:opacity-100 hover:bg-border">
+                                                        <h3
+                                                            class="tracking-tight flex items-center space-x-1 text-sm font-medium text-foreground">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="lucide lucide-search h-4 w-4">
+                                                                <circle cx="11" cy="11" r="8"></circle>
+                                                                <path d="m21 21-4.3-4.3"></path>
+                                                            </svg><span class="w-full max-w-48 truncate">Bay Area
+                                                                listing agents</span></h3>
+                                                    </div>
+                                                </a><a href="/search/a8cc0052-f3e5-4f39-b89d-65042e9986bb">
+                                                    <div
+                                                        class="border text-card-foreground cursor-pointer rounded-md border-none bg-muted px-2 py-[0.375rem] opacity-75 shadow-none transition duration-100 hover:opacity-100 hover:bg-border">
+                                                        <h3
+                                                            class="tracking-tight flex items-center space-x-1 text-sm font-medium text-foreground">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="lucide lucide-search h-4 w-4">
+                                                                <circle cx="11" cy="11" r="8"></circle>
+                                                                <path d="m21 21-4.3-4.3"></path>
+                                                            </svg><span class="w-full max-w-48 truncate">Bay area RE
+                                                                agents</span></h3>
+                                                    </div>
+                                                </a><a href="/search/b3f6f267-13fd-4911-ae28-6e31c60f59a9">
+                                                    <div
+                                                        class="border text-card-foreground cursor-pointer rounded-md border-none bg-muted px-2 py-[0.375rem] opacity-75 shadow-none transition duration-100 hover:opacity-100 hover:bg-border">
+                                                        <h3
+                                                            class="tracking-tight flex items-center space-x-1 text-sm font-medium text-foreground">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="lucide lucide-search h-4 w-4">
+                                                                <circle cx="11" cy="11" r="8"></circle>
+                                                                <path d="m21 21-4.3-4.3"></path>
+                                                            </svg><span class="w-full max-w-48 truncate">US SW eng
+                                                                internship connectors</span></h3>
+                                                    </div>
+                                                </a><a href="/search/737104f3-e0e9-4ec3-b6e9-3516384580ab">
+                                                    <div
+                                                        class="border text-card-foreground cursor-pointer rounded-md border-none bg-muted px-2 py-[0.375rem] opacity-75 shadow-none transition duration-100 hover:opacity-100 hover:bg-border">
+                                                        <h3
+                                                            class="tracking-tight flex items-center space-x-1 text-sm font-medium text-foreground">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="lucide lucide-search h-4 w-4">
+                                                                <circle cx="11" cy="11" r="8"></circle>
+                                                                <path d="m21 21-4.3-4.3"></path>
+                                                            </svg><span class="w-full max-w-48 truncate">US SW eng
+                                                                internship contacts</span></h3>
+                                                    </div>
+                                                </a><a class="px-2 py-1" href="/history">
+                                                    <div
+                                                        class="group cursor-pointer text-sm font-medium text-muted-foreground hover:text-foreground">
+                                                        <div class="flex items-center space-x-[2px]"><span>View
+                                                                all</span>
+                                                            <div style="transform: none;"><svg width="15" height="15"
+                                                                    viewBox="0 0 15 15" fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
+                                                                    <path
+                                                                        d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                                                        fill="currentColor" fill-rule="evenodd"
+                                                                        clip-rule="evenodd"></path>
+                                                                </svg></div>
+                                                        </div>
+                                                    </div>
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-auto pt-2">
+                            <div class="flex items-center justify-between"><button
+                                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-9 p-1 hover:bg-border"
+                                    type="button" id="radix-:r5:" aria-haspopup="menu" aria-expanded="false"
+                                    data-state="closed" tabindex="0"><span
+                                        class="relative flex shrink-0 overflow-hidden rounded-full h-7 w-7"><img
+                                            class="aspect-square object-cover h-full w-full"
+                                            src="https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ybVhlbWF4NHBhUGk1eHMwcmtTbTJIZmxscTYifQ"></span><span
+                                        class="ml-2 text-sm font-medium">Pranav Saji</span></button><button
+                                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-9 relative p-2 hover:bg-border"
+                                    type="button" tabindex="0">
+                                    <div class="relative h-5 w-5"><svg width="15" height="15" viewBox="0 0 15 15"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg"
+                                            class="absolute inset-0 h-full w-full rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0">
+                                            <path
+                                                d="M7.5 0C7.77614 0 8 0.223858 8 0.5V2.5C8 2.77614 7.77614 3 7.5 3C7.22386 3 7 2.77614 7 2.5V0.5C7 0.223858 7.22386 0 7.5 0ZM2.1967 2.1967C2.39196 2.00144 2.70854 2.00144 2.90381 2.1967L4.31802 3.61091C4.51328 3.80617 4.51328 4.12276 4.31802 4.31802C4.12276 4.51328 3.80617 4.51328 3.61091 4.31802L2.1967 2.90381C2.00144 2.70854 2.00144 2.39196 2.1967 2.1967ZM0.5 7C0.223858 7 0 7.22386 0 7.5C0 7.77614 0.223858 8 0.5 8H2.5C2.77614 8 3 7.77614 3 7.5C3 7.22386 2.77614 7 2.5 7H0.5ZM2.1967 12.8033C2.00144 12.608 2.00144 12.2915 2.1967 12.0962L3.61091 10.682C3.80617 10.4867 4.12276 10.4867 4.31802 10.682C4.51328 10.8772 4.51328 11.1938 4.31802 11.3891L2.90381 12.8033C2.70854 12.9986 2.39196 12.9986 2.1967 12.8033ZM12.5 7C12.2239 7 12 7.22386 12 7.5C12 7.77614 12.2239 8 12.5 8H14.5C14.7761 8 15 7.77614 15 7.5C15 7.22386 14.7761 7 14.5 7H12.5ZM10.682 4.31802C10.4867 4.12276 10.4867 3.80617 10.682 3.61091L12.0962 2.1967C12.2915 2.00144 12.608 2.00144 12.8033 2.1967C12.9986 2.39196 12.9986 2.70854 12.8033 2.90381L11.3891 4.31802C11.1938 4.51328 10.8772 4.51328 10.682 4.31802ZM8 12.5C8 12.2239 7.77614 12 7.5 12C7.22386 12 7 12.2239 7 12.5V14.5C7 14.7761 7.22386 15 7.5 15C7.77614 15 8 14.7761 8 14.5V12.5ZM10.682 10.682C10.8772 10.4867 11.1938 10.4867 11.3891 10.682L12.8033 12.0962C12.9986 12.2915 12.9986 12.608 12.8033 12.8033C12.608 12.9986 12.2915 12.9986 12.0962 12.8033L10.682 11.3891C10.4867 11.1938 10.4867 10.8772 10.682 10.682ZM5.5 7.5C5.5 6.39543 6.39543 5.5 7.5 5.5C8.60457 5.5 9.5 6.39543 9.5 7.5C9.5 8.60457 8.60457 9.5 7.5 9.5C6.39543 9.5 5.5 8.60457 5.5 7.5ZM7.5 4.5C5.84315 4.5 4.5 5.84315 4.5 7.5C4.5 9.15685 5.84315 10.5 7.5 10.5C9.15685 10.5 10.5 9.15685 10.5 7.5C10.5 5.84315 9.15685 4.5 7.5 4.5Z"
+                                                fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                        </svg><svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="absolute inset-0 h-full w-full rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100">
+                                            <path
+                                                d="M2.89998 0.499976C2.89998 0.279062 2.72089 0.0999756 2.49998 0.0999756C2.27906 0.0999756 2.09998 0.279062 2.09998 0.499976V1.09998H1.49998C1.27906 1.09998 1.09998 1.27906 1.09998 1.49998C1.09998 1.72089 1.27906 1.89998 1.49998 1.89998H2.09998V2.49998C2.09998 2.72089 2.27906 2.89998 2.49998 2.89998C2.72089 2.89998 2.89998 2.72089 2.89998 2.49998V1.89998H3.49998C3.72089 1.89998 3.89998 1.72089 3.89998 1.49998C3.89998 1.27906 3.72089 1.09998 3.49998 1.09998H2.89998V0.499976ZM5.89998 3.49998C5.89998 3.27906 5.72089 3.09998 5.49998 3.09998C5.27906 3.09998 5.09998 3.27906 5.09998 3.49998V4.09998H4.49998C4.27906 4.09998 4.09998 4.27906 4.09998 4.49998C4.09998 4.72089 4.27906 4.89998 4.49998 4.89998H5.09998V5.49998C5.09998 5.72089 5.27906 5.89998 5.49998 5.89998C5.72089 5.89998 5.89998 5.72089 5.89998 5.49998V4.89998H6.49998C6.72089 4.89998 6.89998 4.72089 6.89998 4.49998C6.89998 4.27906 6.72089 4.09998 6.49998 4.09998H5.89998V3.49998ZM1.89998 6.49998C1.89998 6.27906 1.72089 6.09998 1.49998 6.09998C1.27906 6.09998 1.09998 6.27906 1.09998 6.49998V7.09998H0.499976C0.279062 7.09998 0.0999756 7.27906 0.0999756 7.49998C0.0999756 7.72089 0.279062 7.89998 0.499976 7.89998H1.09998V8.49998C1.09998 8.72089 1.27906 8.89997 1.49998 8.89997C1.72089 8.89997 1.89998 8.72089 1.89998 8.49998V7.89998H2.49998C2.72089 7.89998 2.89998 7.72089 2.89998 7.49998C2.89998 7.27906 2.72089 7.09998 2.49998 7.09998H1.89998V6.49998ZM8.54406 0.98184L8.24618 0.941586C8.03275 0.917676 7.90692 1.1655 8.02936 1.34194C8.17013 1.54479 8.29981 1.75592 8.41754 1.97445C8.91878 2.90485 9.20322 3.96932 9.20322 5.10022C9.20322 8.37201 6.82247 11.0878 3.69887 11.6097C3.45736 11.65 3.20988 11.6772 2.96008 11.6906C2.74563 11.702 2.62729 11.9535 2.77721 12.1072C2.84551 12.1773 2.91535 12.2458 2.98667 12.3128L3.05883 12.3795L3.31883 12.6045L3.50684 12.7532L3.62796 12.8433L3.81491 12.9742L3.99079 13.089C4.11175 13.1651 4.23536 13.2375 4.36157 13.3059L4.62496 13.4412L4.88553 13.5607L5.18837 13.6828L5.43169 13.7686C5.56564 13.8128 5.70149 13.8529 5.83857 13.8885C5.94262 13.9155 6.04767 13.9401 6.15405 13.9622C6.27993 13.9883 6.40713 14.0109 6.53544 14.0298L6.85241 14.0685L7.11934 14.0892C7.24637 14.0965 7.37436 14.1002 7.50322 14.1002C11.1483 14.1002 14.1032 11.1453 14.1032 7.50023C14.1032 7.25044 14.0893 7.00389 14.0623 6.76131L14.0255 6.48407C13.991 6.26083 13.9453 6.04129 13.8891 5.82642C13.8213 5.56709 13.7382 5.31398 13.6409 5.06881L13.5279 4.80132L13.4507 4.63542L13.3766 4.48666C13.2178 4.17773 13.0353 3.88295 12.8312 3.60423L12.6782 3.40352L12.4793 3.16432L12.3157 2.98361L12.1961 2.85951L12.0355 2.70246L11.8134 2.50184L11.4925 2.24191L11.2483 2.06498L10.9562 1.87446L10.6346 1.68894L10.3073 1.52378L10.1938 1.47176L9.95488 1.3706L9.67791 1.2669L9.42566 1.1846L9.10075 1.09489L8.83599 1.03486L8.54406 0.98184ZM10.4032 5.30023C10.4032 4.27588 10.2002 3.29829 9.83244 2.40604C11.7623 3.28995 13.1032 5.23862 13.1032 7.50023C13.1032 10.593 10.596 13.1002 7.50322 13.1002C6.63646 13.1002 5.81597 12.9036 5.08355 12.5522C6.5419 12.0941 7.81081 11.2082 8.74322 10.0416C8.87963 10.2284 9.10028 10.3497 9.34928 10.3497C9.76349 10.3497 10.0993 10.0139 10.0993 9.59971C10.0993 9.24256 9.84965 8.94373 9.51535 8.86816C9.57741 8.75165 9.63653 8.63334 9.6926 8.51332C9.88358 8.63163 10.1088 8.69993 10.35 8.69993C11.0403 8.69993 11.6 8.14028 11.6 7.44993C11.6 6.75976 11.0406 6.20024 10.3505 6.19993C10.3853 5.90487 10.4032 5.60464 10.4032 5.30023Z"
+                                                fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                        </svg></div>
+                                </button></div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            <div class="relative flex-1 md:overflow-y-scroll">
+                <div class="absolute inset-0 flex flex-col">
+                    <main>
+                        <div class="flex min-h-screen flex-col">
+                            <div class="mt-20 flex flex-grow flex-col md:mt-0 md:items-center md:justify-center">
+                                <div class="flex w-full justify-center">
+                                    <div class="flex w-11/12 max-w-screen-md flex-col">
+                                        <div class="my-4 flex justify-center"><img alt="Happenstance"
+                                                fetchpriority="high" width="64" height="64" decoding="async"
+                                                data-nimg="1" style="color:transparent"
+                                                srcset="/_next/image?url=%2Fhappenstance.png&amp;w=64&amp;q=75 1x, /_next/image?url=%2Fhappenstance.png&amp;w=128&amp;q=75 2x"
+                                                src="/_next/image?url=%2Fhappenstance.png&amp;w=128&amp;q=75"></div>
+                                        <div class="mb-4 flex justify-center text-2xl sm:mb-6 sm:text-4xl">Find people
+                                            in your networks</div>
+                                        <div class="min-h-[360px]">
+                                            <div
+                                                class="rounded-md border-2 border-input p-2 shadow-sm transition duration-100 focus-within:border-primary focus:border-2 false">
+                                                <form class="space-y-2">
+                                                    <div class="space-y-2">
+                                                        <div id=":rd:-form-item"
+                                                            aria-describedby=":rd:-form-item-description"
+                                                            aria-invalid="false"><textarea
+                                                                class="flex rounded-md border border-input bg-transparent placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 disabled:cursor-not-allowed disabled:opacity-50 transition duration-100 focus:border-primary min-h-[144px] w-full resize-none border-none p-1 text-lg shadow-none focus-visible:ring-transparent"
+                                                                placeholder="Who are you looking for?" maxlength="15000"
+                                                                name="search"></textarea></div>
+                                                    </div>
+                                                    <div data-orientation="horizontal" role="none"
+                                                        class="shrink-0 bg-border h-[1px] w-full"></div>
+                                                    <div class="flex justify-between">
+                                                        <div class="relative flex">
+                                                            <div class="flex flex-col justify-between"><button
+                                                                    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-10 w-10 rounded-md border-dashed"
+                                                                    type="button" disabled="" aria-haspopup="dialog"
+                                                                    aria-expanded="false" aria-controls="radix-:re:"
+                                                                    data-state="closed" tabindex="0"><svg
+                                                                        xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        class="lucide lucide-scan-search h-10 w-10 p-2">
+                                                                        <path d="M3 7V5a2 2 0 0 1 2-2h2"></path>
+                                                                        <path d="M17 3h2a2 2 0 0 1 2 2v2"></path>
+                                                                        <path d="M21 17v2a2 2 0 0 1-2 2h-2"></path>
+                                                                        <path d="M7 21H5a2 2 0 0 1-2-2v-2"></path>
+                                                                        <circle cx="12" cy="12" r="3"></circle>
+                                                                        <path d="m16 16-1.9-1.9"></path>
+                                                                    </svg></button></div>
+                                                            <div class="flex-grow">
+                                                                <div class="flex flex-wrap items-center gap-1 px-3">
+                                                                    <div
+                                                                        style="opacity: 1; will-change: opacity, transform; transform: none;">
+                                                                        <div
+                                                                            class="rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-accent text-secondary-foreground flex items-center space-x-1 px-1 py-0.5 text-[11px] leading-3 hover:cursor-pointer hover:bg-border">
+                                                                            <span class="max-w-32 truncate">Your
+                                                                                connections</span><span
+                                                                                class="transition-all duration-200"><svg
+                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                    width="24" height="24"
+                                                                                    viewBox="0 0 24 24" fill="none"
+                                                                                    stroke="currentColor"
+                                                                                    stroke-width="2"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round"
+                                                                                    class="lucide lucide-x h-3 w-3">
+                                                                                    <path d="M18 6 6 18"></path>
+                                                                                    <path d="m6 6 12 12"></path>
+                                                                                </svg></span></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div><button
+                                                            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 px-4 py-2 h-10 w-10"
+                                                            type="submit" disabled="" tabindex="0"><span><svg
+                                                                    xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="lucide lucide-arrow-right h-10 w-10 p-2">
+                                                                    <path d="M5 12h14"></path>
+                                                                    <path d="m12 5 7 7-7 7"></path>
+                                                                </svg></span></button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="mt-auto w-full py-8 text-xs text-muted-foreground md:text-sm">
+                                <div class="flex justify-center space-x-3 md:space-x-6"><a class="hover:text-foreground"
+                                        href="/homepage">Homepage</a><a class="hover:text-foreground"
+                                        href="/privacy">Privacy</a></div>
+                            </footer>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" crossorigin="anonymous" src="/ingest/static/recorder.js?v=1.176.0"></script>
+    <script src="/_next/static/chunks/webpack-9a96858b4fbf814d.js" async=""></script>
+    <script>(self.__next_f = self.__next_f || []).push([0]); self.__next_f.push([2, null])</script>
+    <script>self.__next_f.push([1, "1:HL[\"/_next/static/css/b09fbae220e08670.css\",\"style\"]\n"])</script>
+    <script>self.__next_f.push([1, "2:I[95751,[],\"\"]\n4:I[66513,[],\"ClientPageRoot\"]\n5:I[76058,[\"5878\",\"static/chunks/9da6db1e-2eb1a18cb3deca4d.js\",\"8310\",\"static/chunks/0e5ce63c-735afe55d95a1472.js\",\"231\",\"static/chunks/231-95ece63dbda7b82f.js\",\"7500\",\"static/chunks/7500-8cb757ed3793acf9.js\",\"7776\",\"static/chunks/7776-a1912eb86ffa6ab5.js\",\"3073\",\"static/chunks/3073-d8589653dd8dc272.js\",\"1150\",\"static/chunks/1150-36705af242d8bbdb.js\",\"5355\",\"static/chunks/5355-0905e9f626a291e7.js\",\"3255\",\"static/chunks/3255-0ccecb095b7d1d8a.js\",\"5306\",\"static/chunks/5306-7bd824231f74c07b.js\",\"2006\",\"static/chunks/2006-5edeefad5ac8a346.js\",\"450\",\"static/chunks/450-ca313201d311b057.js\",\"1976\",\"static/chunks/1976-34a7109d0969971b.js\",\"7690\",\"static/chunks/7690-7f071d8dfcf956dc.js\",\"1585\",\"static/chunks/1585-25ec687cf19ff1ab.js\",\"8508\",\"static/chunks/8508-b6d09192b8494e05.js\",\"9961\",\"static/chunks/9961-d5b6244b0a3c7c9b.js\",\"3008\",\"static/chunks/3008-280a1ce0ea66ab0e.js\",\"2669\",\"static/chunks/2669-3f9433ccf4ed6df7.js\",\"2797\",\"static/chunks/app/search/page-8a50561460d7043a.js\"],\"default\",1]\n6:I[39275,[],\"\"]\n7:I[61343,[],\"\"]\n8:I[5284,[\"5878\",\"static/chunks/9da6db1e-2eb1a18cb3deca4d.js\",\"8310\",\"static/chunks/0e5ce63c-735afe55d95a1472.js\",\"231\",\"static/chunks/231-95ece63dbda7b82f.js\",\"7500\",\"static/chunks/7500-8cb757ed3793acf9.js\",\"7776\",\"static/chunks/7776-a1912eb86ffa6ab5.js\",\"3073\",\"static/chunks/3073-d8589653dd8dc272.js\",\"1150\",\"static/chunks/1150-36705af242d8bbdb.js\",\"5355\",\"static/chunks/5355-0905e9f626a291e7.js\",\"3255\",\"static/chunks/3255-0ccecb095b7d1d8a.js\",\"5306\",\"static/chunks/5306-7bd824231f74c07b.js\",\"2006\",\"static/chunks/2006-5edeefad5ac8a346.js\",\"450\",\"static/chunks/450-ca313201d311b057.js\",\"1976\",\"static/chunks/1976-34a7109d0969971b.js\",\"7690\",\"static/chunks/7690-7f071d8dfcf956dc.js\",\"8685\",\"static/chunks/8685-cf7935654d986925.js\",\"8508\",\"static/chunks/8508-b6d09192b8494e05.js\",\"9743\",\"static/chunks/9743-a60e90965e772b45.js\",\"2987\",\"static/chunks/2987-2b8fa57a33344813.js\",\"4835\",\"static/chunks/4835-1a7d46ed62c15dd8.js\",\"9961\",\"static/chunks/9961-d5b6244b0a3c7"])</script>
+    <script>self.__next_f.push([1, "c9b.js\",\"3008\",\"static/chunks/3008-280a1ce0ea66ab0e.js\",\"3185\",\"static/chunks/app/layout-913996598daf633c.js\"],\"default\"]\n9:I[39140,[\"231\",\"static/chunks/231-95ece63dbda7b82f.js\",\"7500\",\"static/chunks/7500-8cb757ed3793acf9.js\",\"9160\",\"static/chunks/app/not-found-5a6ab2ca3dc9e802.js\"],\"default\"]\nb:I[76130,[],\"\"]\nc:[]\n0:[\"$\",\"$L2\",null,{\"buildId\":\"davkplVvsDGpzw_6Gzdro\",\"assetPrefix\":\"\",\"urlParts\":[\"\",\"search\"],\"initialTree\":[\"\",{\"children\":[\"search\",{\"children\":[\"__PAGE__\",{}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"search\",{\"children\":[\"__PAGE__\",{},[[\"$L3\",[\"$\",\"$L4\",null,{\"props\":{\"params\":{},\"searchParams\":{}},\"Component\":\"$5\"}],null],null],null]},[null,[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"search\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\"}]],null]},[[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/b09fbae220e08670.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"flex min-h-screen flex-col\",\"children\":[\"$\",\"$L8\",null,{\"children\":[\"$\",\"main\",null,{\"children\":[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[\"$\",\"$L9\",null,{}],\"notFoundStyles\":[]}]}]}]}]}]],null],null],\"couldBeIntercepted\":false,\"initialHead\":[null,\"$La\"],\"globalErrorComponent\":\"$b\",\"missingSlots\":\"$Wc\"}]\n"])</script>
+    <script>self.__next_f.push([1, "a:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"Happenstance\"}],[\"$\",\"meta\",\"3\",{\"property\":\"og:title\",\"content\":\"Happenstance\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:url\",\"content\":\"https://happenstance.ai\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:image\",\"content\":\"https://happenstance.ai/opengraph/og.png\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:image:alt\",\"content\":\"Happenstance\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"8\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"9\",{\"name\":\"twitter:title\",\"content\":\"Happenstance\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:image\",\"content\":\"https://happenstance.ai/opengraph/og.png\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:image:alt\",\"content\":\"Happenstance\"}],[\"$\",\"link\",\"12\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"48x48\"}]]\n3:null\n"])</script>
+    <script src="https://accounts.google.com/gsi/client" async="" defer=""></script>
+    <next-route-announcer style="position: absolute;"></next-route-announcer><iframe id="intercom-frame"
+        style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;"
+        aria-hidden="true" tabindex="-1" title="Intercom"></iframe>
+    <div id="clerk-components"></div>
+    <div class="intercom-lightweight-app">
+        <div class="intercom-lightweight-app-launcher intercom-launcher" role="button" tabindex="0"
+            aria-label="Open Intercom Messenger" aria-live="polite">
+            <div class="intercom-lightweight-app-launcher-icon intercom-lightweight-app-launcher-icon-open"><svg
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 32">
+                    <path
+                        d="M28 32s-4.714-1.855-8.527-3.34H3.437C1.54 28.66 0 27.026 0 25.013V3.644C0 1.633 1.54 0 3.437 0h21.125c1.898 0 3.437 1.632 3.437 3.645v18.404H28V32zm-4.139-11.982a.88.88 0 00-1.292-.105c-.03.026-3.015 2.681-8.57 2.681-5.486 0-8.517-2.636-8.571-2.684a.88.88 0 00-1.29.107 1.01 1.01 0 00-.219.708.992.992 0 00.318.664c.142.128 3.537 3.15 9.762 3.15 6.226 0 9.621-3.022 9.763-3.15a.992.992 0 00.317-.664 1.01 1.01 0 00-.218-.707z">
+                    </path>
+                </svg></div>
+            <div class="intercom-lightweight-app-launcher-icon intercom-lightweight-app-launcher-icon-minimize"><svg
+                    width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M18.601 8.39897C18.269 8.06702 17.7309 8.06702 17.3989 8.39897L12 13.7979L6.60099 8.39897C6.26904 8.06702 5.73086 8.06702 5.39891 8.39897C5.06696 8.73091 5.06696 9.2691 5.39891 9.60105L11.3989 15.601C11.7309 15.933 12.269 15.933 12.601 15.601L18.601 9.60105C18.9329 9.2691 18.9329 8.73091 18.601 8.39897Z"
+                        fill="white"></path>
+                </svg>
+            </div>
+        </div>
+        <style id="intercom-lightweight-app-style" type="text/css">
+            @keyframes intercom-lightweight-app-launcher {
+                from {
+                    opacity: 0;
+                    transform: scale(0.5);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: scale(1);
+                }
+            }
+
+            @keyframes intercom-lightweight-app-gradient {
+                from {
+                    opacity: 0;
+                }
+
+                to {
+                    opacity: 1;
+                }
+            }
+
+            @keyframes intercom-lightweight-app-messenger {
+                0% {
+                    opacity: 0;
+                    transform: scale(0);
+                }
+
+                40% {
+                    opacity: 1;
+                }
+
+                100% {
+                    transform: scale(1);
+                }
+            }
+
+            .intercom-lightweight-app {
+                position: fixed;
+                z-index: 2147483001;
+                width: 0;
+                height: 0;
+                font-family: intercom-font, "Helvetica Neue", "Apple Color Emoji", Helvetica, Arial, sans-serif;
+            }
+
+            .intercom-lightweight-app-gradient {
+                position: fixed;
+                z-index: 2147483002;
+                width: 500px;
+                height: 500px;
+                bottom: 0;
+                right: 0;
+                pointer-events: none;
+                background: radial-gradient(ellipse at bottom right,
+                        rgba(29, 39, 54, 0.16) 0%,
+                        rgba(29, 39, 54, 0) 72%);
+                animation: intercom-lightweight-app-gradient 200ms ease-out;
+            }
+
+            .intercom-lightweight-app-launcher {
+                position: fixed;
+                z-index: 2147483003;
+                padding: 0 !important;
+                margin: 0 !important;
+                border: none;
+                bottom: 20px;
+                right: 20px;
+                max-width: 48px;
+                width: 48px;
+                max-height: 48px;
+                height: 48px;
+                border-radius: 50%;
+                background: #16a34a;
+                cursor: pointer;
+                box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06), 0 2px 32px 0 rgba(0, 0, 0, 0.16);
+                transition: transform 167ms cubic-bezier(0.33, 0.00, 0.00, 1.00);
+                box-sizing: content-box;
+            }
+
+
+            .intercom-lightweight-app-launcher:hover {
+                transition: transform 250ms cubic-bezier(0.33, 0.00, 0.00, 1.00);
+                transform: scale(1.1)
+            }
+
+            .intercom-lightweight-app-launcher:active {
+                transform: scale(0.85);
+                transition: transform 134ms cubic-bezier(0.45, 0, 0.2, 1);
+            }
+
+
+            .intercom-lightweight-app-launcher:focus {
+                outline: none;
+
+
+            }
+
+            .intercom-lightweight-app-launcher-icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 48px;
+                height: 48px;
+                transition: transform 100ms linear, opacity 80ms linear;
+            }
+
+            .intercom-lightweight-app-launcher-icon-open {
+
+                opacity: 1;
+                transform: rotate(0deg) scale(1);
+
+            }
+
+            .intercom-lightweight-app-launcher-icon-open svg {
+                width: 24px;
+                height: 24px;
+            }
+
+            .intercom-lightweight-app-launcher-icon-open svg path {
+                fill: rgb(255, 255, 255);
+            }
+
+            .intercom-lightweight-app-launcher-icon-self-serve {
+
+                opacity: 1;
+                transform: rotate(0deg) scale(1);
+
+            }
+
+            .intercom-lightweight-app-launcher-icon-self-serve svg {
+                height: 44px;
+            }
+
+            .intercom-lightweight-app-launcher-icon-self-serve svg path {
+                fill: rgb(255, 255, 255);
+            }
+
+            .intercom-lightweight-app-launcher-custom-icon-open {
+                max-height: 24px;
+                max-width: 24px;
+
+
+                opacity: 1;
+                transform: rotate(0deg) scale(1);
+
+            }
+
+            .intercom-lightweight-app-launcher-icon-minimize {
+
+                opacity: 0;
+                transform: rotate(-60deg) scale(0);
+
+            }
+
+            .intercom-lightweight-app-launcher-icon-minimize svg path {
+                fill: rgb(255, 255, 255);
+            }
+
+            .intercom-lightweight-app-messenger {
+                position: fixed;
+                z-index: 2147483003;
+                overflow: hidden;
+                background-color: white;
+                animation: intercom-lightweight-app-messenger 250ms cubic-bezier(0, 1, 1, 1);
+                transform-origin: bottom right;
+
+
+                width: 400px;
+                height: calc(100% - 104px);
+                max-height: 704px;
+                min-height: 250px;
+                right: 20px;
+                bottom: 84px;
+                box-shadow: 0 5px 40px rgba(0, 0, 0, 0.16);
+
+
+                border-radius: 16px;
+            }
+
+            .intercom-lightweight-app-messenger-header {
+                height: 64px;
+                border-bottom: none;
+                background: #fcfcf9
+            }
+
+            .intercom-lightweight-app-messenger-footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 80px;
+                background: #fff;
+                font-size: 14px;
+                line-height: 21px;
+                border-top: 1px solid rgba(0, 0, 0, 0.05);
+                box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+
+            }
+
+            @media print {
+                .intercom-lightweight-app {
+                    display: none;
+                }
+            }
+        </style>
+    </div>
+</body>
+
+</html>
+ -->

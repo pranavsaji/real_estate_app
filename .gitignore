@@ -1,0 +1,11 @@
+# Environment variables and secrets
+backend/.env
+
+# Python virtual environment
+backend/pyvenv
+backend/pyvenv/
+
+
+# Node modules
+node_modules/
+frontend/node_modules/
