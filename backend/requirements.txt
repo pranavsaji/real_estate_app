@@ -7,4 +7,4 @@ gunicorn==23.0.0
 Flask-Caching==2.3.0
 python-dotenv==1.0.1
 Flask==3.0.3
-fuzzywuzzy==0.18.0
+rcs==1.0.16

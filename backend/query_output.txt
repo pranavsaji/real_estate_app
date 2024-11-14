@@ -1,0 +1,14 @@
+Input Query: Looking for a 3 bedroom house with a big backyard in San Francisco.
+
+User Intent: The user wants a spacious home with outdoor space.
+
+Traits: has 3 bedrooms, has big backyard
+
+Key Phrases: 3 bedroom house, big backyard, San Francisco real estate
+
+PropertyKeywords: Column: Value
+
+Generated SQL Query: SELECT * FROM zillow_data WHERE beds = 3 AND neighborhood_desc LIKE %backyard%
+
+Final Output from CSV:
+{'city': 'San Francisco', 'price': 850000}
